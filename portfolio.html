@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio - IT Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" href="./images/image.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="image.png" alt="IT Company Logo"></a>
+        <div class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="services.html">services</a></li>
+                <li><a href="portfolio.html">portfolio</a></li>
+                <li><a href="team.html">team</a></li>
+                <li><a href="careers.html">career</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="faqs.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="portfolio" class="portfolio" style="margin-top: 5rem;">
+        <h1 class="heading">our portfolio</h1>
+        <div class="filter-buttons">
+            <button class="btn active" data-filter="all">All</button>
+            <button class="btn" data-filter="web">Web Development</button>
+            <button class="btn" data-filter="mobile">Mobile Apps</button>
+            <button class="btn" data-filter="design">UI/UX Design</button>
+        </div>
+
+        <div class="portfolio-container">
+            <div class="portfolio-item web">
+                <img src="images/web1.jpg" alt="Web Project 1">
+                <div class="overlay">
+                    <h3>E-commerce Website</h3>
+                    <p>Complete online store with payment integration</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            
+            <div class="portfolio-item mobile">
+                <img src="images/mobile1.jpg" alt="Mobile Project 1">
+                <div class="overlay">
+                    <h3>Fitness App</h3>
+                    <p>Cross-platform fitness tracking application</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            
+            <div class="portfolio-item design">
+                <img src="images/design1.jpg" alt="Design Project 1">
+                <div class="overlay">
+                    <h3>Banking App UI</h3>
+                    <p>Modern banking interface design</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            
+            <div class="portfolio-item web">
+                <img src="images/web2.jpg" alt="Web Project 2">
+                <div class="overlay">
+                    <h3>Corporate Website</h3>
+                    <p>Responsive corporate website with CMS</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            
+            <div class="portfolio-item mobile">
+                <img src="images/mobile2.jpg" alt="Mobile Project 2">
+                <div class="overlay">
+                    <h3>Food Delivery App</h3>
+                    <p>Restaurant ordering and delivery platform</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            
+            <div class="portfolio-item design">
+                <img src="images/design2.jpg" alt="Design Project 2">
+                <div class="overlay">
+                    <h3>Healthcare Dashboard</h3>
+                    <p>Patient management system interface</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <h1 class="heading">Client Testimonials</h1>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <div class="client-info">
+                    <img src="images/client1.jpg" alt="Client 1">
+                    <h4>John Smith</h4>
+                    <p>CEO, Tech Solutions Inc.</p>
+                </div>
+                <p>"IT Company delivered our e-commerce platform ahead of schedule. Their attention to detail and technical expertise were impressive."</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="client-info">
+                    <img src="images/client2.jpg" alt="Client 2">
+                    <h4>Sarah Johnson</h4>
+                    <p>Marketing Director, Retail Corp</p>
+                </div>
+                <p>"The mobile app they developed for our retail chain has significantly improved customer engagement and sales."</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>About Us</h4>
+                        <ul>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="index.html">Home</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="about.html">About us</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="services.html">Our services</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#">Terms & condition</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="portfolio.html">Portfolio</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="team.html">Team</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="careers.html">Career</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="contact.html">Contact</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="faqs.html">FAQ</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact" style="font-size: 1.5rem;">
+                        <h4>Contact Us</h4>
+                        <p>
+                            1300  Center Avenue<br>
+                            Fresno, California<br>
+                            United States <br>
+                            <strong>Phone:</strong> +123-456-7890<br>
+                            <strong>Email:</strong> info@example.com<br>
+                        </p>
+
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/"><i class="ion-logo-facebook"></i></a>
+                            <a href="https://twitter.com/login?lang=en"><i class="ion-logo-twitter"></i></a>
+                            <a href="https://www.linkedin.com/"><i class="ion-logo-linkedin"></i></a>
+                            <a href="https://www.instagram.com/"><i class="ion-logo-instagram"></i></a>
+                            <a href="https://accounts.google.com/"><i class="ion-logo-googleplus"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-newsletter">
+                        <h4>Subscription</h4>
+                        <p>With Our Skills Put Together, You Get An Ensemble Capable Of Doing Anything And Everything Your Brand Needs. Subscribe Here To Get Our Latest Updates.</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 copyright" style="color: #fff; font-size: 1.3rem;">
+                    Copyright &copy; 2025 IT Company Website. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+    <script src="main.js"></script>
+</body>
+</html>
